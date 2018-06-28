@@ -14,7 +14,7 @@ library(lme4)
 # Data-----------------------
 # Data frame with meta data and the relative abundances of the top
 # five most abundant OTUs by sample
-endo <- read.csv(file = "~/Box Sync/CHOMPIN/Manuscript_mal16/R-info/endomodels.csv")
+endo <- read.csv(file = "~/CHOMPIN-MS/data/endomodels.csv")
 summary(endo)
 
 # Make relative abundances
